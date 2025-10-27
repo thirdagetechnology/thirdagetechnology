@@ -10,13 +10,13 @@ export default function Footer() {
         <div>
           <h3>Contact</h3>
           <p>Jordan Dooms</p>
-          <p>Owner & CEO</p>
+          <p>Founder & CEO</p>
           <p>
             <a href="tel:8049216853">(804) 921-6853</a>
           </p>
           <p>
-            <a href="mailto:info@thirdagetechnology.net">
-              info@thirdagetechnology.net
+            <a href="mailto:jordan.dooms@thirdagetechnology.net">
+              jordan.dooms@thirdagetechnology.net
             </a>
           </p>
         </div>
@@ -38,7 +38,6 @@ export default function Footer() {
             className={styles.footerLogo}
           />
           <h3>Third Age Technology, LLC</h3>
-          <p className={styles.tagline}>“Keeping You Connected.”</p>
           <p className={styles.copyright}>
             © {new Date().getFullYear()} All rights reserved.
           </p>

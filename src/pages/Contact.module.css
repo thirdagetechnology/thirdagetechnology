@@ -138,18 +138,38 @@
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 800px) {
-  .contactContainer {
-    flex-direction: column;
+  .contactPage {
+    padding: 2rem 1rem;
+    flex-direction: column; /* allow stacking */
     align-items: center;
   }
 
-  .formSection {
+  .contactContainer {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
     width: 100%;
+    max-width: 500px; /* optional: keeps it clean on mobile */
+  }
+
+  .logoSection {
+    width: 100%;
+    flex: none;
+    margin-bottom: 2rem;
+  }
+
+  .formSection {
+    width: 85%;
+    flex: none;
   }
 
   .infoSection {
     border-top: none;
     gap: 1rem;
     padding-top: 0;
+  }
+
+  .logo {
+    width: 60%; /* looks nicer on smaller screens */
   }
 }

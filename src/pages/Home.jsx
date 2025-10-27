@@ -68,8 +68,8 @@ export default function Home() {
       <section className={styles.about}>
         <h2>Why Us?</h2>
         <p>
-          At Thrid Age Technology. We specialize in providing compassionate,
-          senior-focused technology support to met the unique challenges of
+          At Third Age Technology, we specialize in providing compassionate,
+          senior-focused technology support to meet the unique challenges of
           older adults. With patience, respect, and hands-on guidance, we make
           technology simple, approachable, and empowering.
         </p>

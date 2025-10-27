@@ -21,8 +21,8 @@ export default function Contact() {
             <div>
               <h3>Email Us</h3>
               <p>
-                <a href="mailto:info@thirdagetechnology.net">
-                  info@thirdagetechnology.net
+                <a href="mailto:jordan.dooms@thirdagetechnology.net">
+                  jordan.dooms@thirdagetechnology.net
                 </a>
               </p>
             </div>
