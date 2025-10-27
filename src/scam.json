@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Investment Scams",
+    "description": "Scammers promise guaranteed or 'risk-free' returns to lure people into fraudulent investment opportunities through phone calls, emails, texts, or social media.",
+    "losses": "$6.5 billion lost in 2024 (FBI)",
+    "warningSigns": [
+      "Guaranteed high returns",
+      "Pressure to act quickly",
+      "Unusual payment methods"
+    ],
+    "advice": "Be cautious of unsolicited offers. Research thoroughly before investing. Verify companies through the SEC’s EDGAR database and monitor account statements regularly.",
+    "image": "investmentScams"
+  },
+  {
+    "title": "Tech Support Fraud",
+    "description": "Fraudsters pose as legitimate tech companies to trick victims into providing personal information or granting remote access to their computers.",
+    "losses": "$1.4 billion lost in 2024 (FBI)",
+    "warningSigns": [
+      "Unsolicited pop-ups or calls",
+      "Requests for remote access",
+      "Claims of expired software or illegal content"
+    ],
+    "advice": "Install antivirus software, ignore pop-ups, and hang up on unsolicited tech support calls. Contact your device manufacturer directly if unsure.",
+    "image": "TechSupportFraud"
+  },
+  {
+    "title": "Romance Scams",
+    "description": "Scammers build fake romantic relationships online, often claiming to be overseas, and eventually ask for money to solve fake emergencies.",
+    "losses": "$1.14 billion lost in 2024 (FTC)",
+    "warningSigns": [
+      "Too-good-to-be-true profiles",
+      "Avoids meeting in person",
+      "Requests for financial help"
+    ],
+    "advice": "Be cautious about sending money to anyone you haven’t met. Stay connected with family and consult a professional if a relationship feels suspicious.",
+    "image": "RomanceScams"
+  },
+  {
+    "title": "Government Impersonation Scams",
+    "description": "Criminals pretend to be from agencies like the IRS, Social Security, or Medicare, demanding payments or personal information.",
+    "losses": "$789 million lost in 2024 (FTC)",
+    "warningSigns": [
+      "Unsolicited contact from 'officials'",
+      "Threats of arrest or benefit loss",
+      "Requests for payment via gift cards or wire transfers"
+    ],
+    "advice": "Hang up on suspicious calls and never share personal information. Regularly review your credit and Medicare statements for unusual activity.",
+    "image": "GovImposterScams"
+  },
+  {
+    "title": "Grandparent or Emergency Scams",
+    "description": "Scammers call pretending to be a relative in distress, often a grandchild, and urgently request money while asking for secrecy.",
+    "losses": "$2.7 million lost in 2024 (FBI)",
+    "warningSigns": [
+      "Emotional or urgent late-night calls",
+      "Claims of an emergency",
+      "Requests for secrecy or unusual payment methods"
+    ],
+    "advice": "Verify the caller’s identity before sending money. Contact the family directly to confirm the story and avoid sending wired funds or gift cards.",
+    "image": "GrandChildEmergencyScam"
+  },
+  {
+    "title": "Sweepstakes and Lottery Scams",
+    "description": "Victims are told they’ve won a big prize or lottery but must pay upfront taxes or fees to claim it. The prize never arrives.",
+    "losses": "$102 million lost in 2024 (FBI)",
+    "warningSigns": [
+      "Winning a contest you didn’t enter",
+      "Pressure to pay taxes or fees upfront",
+      "Official-looking documents or urgent requests"
+    ],
+    "advice": "Legitimate contests never require payment to claim a prize. Do not share personal or financial details with unsolicited contacts.",
+    "image": "SweepStakesScam"
+  },
+  {
+    "title": "Telemarketing Phone Scams",
+    "description": "Criminals use phone calls to sell fake products, collect donations, or pose as relatives in need. Seniors are often targeted due to higher phone engagement.",
+    "losses": "Median loss of $1,500 per victim (YouGov/FTC)",
+    "warningSigns": [
+      "Unsolicited or high-pressure calls",
+      "Too-good-to-be-true offers",
+      "Refusal to send written information"
+    ],
+    "advice": "Be skeptical of unknown callers. Use call screening tools, hang up on pressure tactics, and research companies or charities before paying.",
+    "image": "TelemarketingPhoneScams"
+  },
+  {
+    "title": "Homeowner and Reverse Mortgage Scams",
+    "description": "Scammers target homeowners with fake refinancing, foreclosure assistance, or reverse mortgage offers to steal equity or personal data.",
+    "warningSigns": [
+      "Unsolicited offers or guaranteed income",
+      "Requests for upfront fees",
+      "Incomplete or confusing paperwork"
+    ],
+    "advice": "Never sign documents you don’t understand. Speak with a certified reverse mortgage counselor or financial advisor before committing.",
+    "image": "HomeOwners"
+  },
+  {
+    "title": "Text or 'Smishing' Scams",
+    "description": "Fraudulent texts claim unpaid tolls or undelivered packages to trick victims into clicking malicious links or sharing information.",
+    "losses": "$129,624 lost to toll text scams in 2024 (FBI)",
+    "warningSigns": [
+      "Texts from unknown numbers with links",
+      "Urgent or alarming messages",
+      "Spoofed sender information"
+    ],
+    "advice": "Never click suspicious links or reply to unknown texts. Contact organizations using verified phone numbers and enable spam filters on your device.",
+    "image": "TextPhishingScam"
+  },
+  {
+    "title": "Obituary Scams",
+    "description": "Scammers exploit grieving families by claiming the deceased owed money or by stealing the deceased’s identity using obituary details.",
+    "warningSigns": [
+      "Unsolicited calls claiming debts",
+      "Requests for personal information",
+      "Overly familiar strangers at funerals"
+    ],
+    "advice": "Limit personal details in obituaries and never provide financial or personal data to unsolicited contacts.",
+    "image": "ObitScam"
+  }
+]

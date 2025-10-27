@@ -1,0 +1,127 @@
+/* ---------- MISSION SECTION ---------- */
+.missionSection {
+  background-color: var(--green);
+  color: var(--offwhite);
+  padding: 4rem 1rem;
+}
+
+.missionContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.text h2 {
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.text p {
+  margin-bottom: 1rem;
+}
+.image {
+  flex: 1;
+  max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 950px) {
+  .missionContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text {
+    width: 100%;
+  }
+}
+/* ---------- ABOUT SECTION ---------- */
+.aboutSection {
+  background-color: var(--offwhite);
+  color: var(--dark);
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.founderPhotoWrapper {
+  margin-bottom: 2rem;
+}
+
+.founderImg {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.aboutContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.aboutText {
+  flex: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.aboutText p {
+  margin-bottom: 1rem;
+}
+
+.aboutImage {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+
+  object-fit: cover;
+}
+.aboutImageMobile {
+  display: none;
+}
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 950px) {
+  .aboutContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutText {
+    width: 100%;
+  }
+
+  .aboutImageWrapper {
+    display: none;
+  }
+  .aboutImageMobile {
+    display: block;
+    width: 60%;
+    margin: 2rem auto 0;
+  }
+}

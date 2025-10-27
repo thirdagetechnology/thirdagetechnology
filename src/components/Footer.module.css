@@ -1,0 +1,89 @@
+.footer {
+  background-color: var(--charcoal);
+  color: var(--offwhite);
+  padding: 3rem 2rem;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ---------- HEADINGS ---------- */
+h3 {
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- LINKS ---------- */
+a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- QUICK LINKS COLUMN ---------- */
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.footerColumn a {
+  color: var(--offwhite);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footerColumn a:hover {
+  color: var(--gold);
+}
+
+/* ---------- COMPANY COLUMN ---------- */
+.companyColumn {
+  text-align: center;
+}
+
+.footerLogo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+}
+
+.tagline {
+  font-style: italic;
+  color: var(--gold);
+  margin-top: 0.3rem;
+}
+
+.copyright {
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 700px) {
+  .companyColumn {
+    text-align: center;
+  }
+
+  .footerLogo {
+    margin: 0 auto 1rem;
+  }
+
+  .footerColumn {
+    align-items: center;
+  }
+
+  .footerColumn a {
+    text-align: center;
+  }
+}

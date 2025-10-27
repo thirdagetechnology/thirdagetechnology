@@ -1,0 +1,164 @@
+.scamInfo {
+  background-color: var(--lightgrey);
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+
+/* ---------- HEADER SECTION ---------- */
+.headerSection {
+  background-color: var(--offwhite);
+  padding: 3rem 1rem;
+  margin-bottom: 3rem;
+}
+
+.headerContent {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.banner {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 1rem;
+  flex: 1 1 40%;
+}
+
+.headerText {
+  flex: 1 1 50%;
+  text-align: left;
+}
+
+.headerText h1 {
+  font-size: 2.3rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+}
+.mobileHeader {
+  display: none;
+}
+.headerText p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 900px) {
+  .headerContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .headerText {
+    text-align: center;
+  }
+
+  .banner {
+    max-width: 60%;
+  }
+  .mobileHeader {
+    display: block;
+    font-size: 2.3rem;
+    color: var(--green);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .headerText h1 {
+    display: none;
+  }
+}
+
+/* ---------- SCAM GRID ---------- */
+.scamGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .scamGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- SCAM CARD ---------- */
+.scamCard {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.scamCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- ICON ---------- */
+.icon {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- TEXT ---------- */
+.scamCard h2 {
+  font-size: 1.3rem;
+  color: var(--green);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+/* ---------- LOSSES ---------- */
+.losses {
+  color: var(--green); /* switched from gold to green */
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* ---------- WARNING SIGNS ---------- */
+.warningSigns {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1rem;
+  width: 100%;
+}
+
+.warningSigns li {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--dark);
+}
+
+/* ---------- ADVICE ---------- */
+.advice {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--dark);
+  text-align: left;
+}

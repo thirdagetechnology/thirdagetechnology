@@ -1,0 +1,155 @@
+.contactPage {
+  background-color: #004b2b;
+  color: #fff;
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contactContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* ---------- LEFT SIDE ---------- */
+.logoSection {
+  text-align: center;
+  flex: 1 1 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 75%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}
+
+.logoSection h2 {
+  font-size: 1.6rem;
+  color: #f6c80f;
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  color: #d0d0d0;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* ---------- INFO SECTION UNDER LOGO ---------- */
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 1.5rem;
+}
+
+.infoSection h3 {
+  color: #f6c80f;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.infoSection p,
+.infoSection a {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.infoSection a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- RIGHT SIDE (FORM) ---------- */
+.formSection {
+  flex: 1 1 50%;
+  background-color: #f6c80f;
+  border-radius: 10px;
+  padding: 2rem;
+  color: #1a1a1a;
+  text-align: left;
+}
+
+.formSection h1 {
+  text-align: center;
+  color: #004b2b;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #004b2b;
+  font-size: 0.95rem;
+}
+
+.form input,
+.form textarea {
+  border: none;
+  border-bottom: 2px solid #004b2b;
+  background: transparent;
+  padding: 0.5rem 0;
+  color: #1a1a1a;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.form button {
+  background-color: #004b2b;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #00643b;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 800px) {
+  .contactContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formSection {
+    width: 100%;
+  }
+
+  .infoSection {
+    border-top: none;
+    gap: 1rem;
+    padding-top: 0;
+  }
+}

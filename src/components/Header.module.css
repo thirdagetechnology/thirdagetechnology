@@ -1,0 +1,134 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--green);
+  color: var(--offwhite);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.mobileQuoteWrapper {
+  display: none;
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  color: var(--offwhite);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav a:hover {
+  color: var(--gold);
+}
+
+.quoteBtn {
+  background-color: var(--gold);
+  color: var(--charcoal);
+  border: none;
+  border-radius: 50px;
+  padding: 0.6rem 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.quoteBtn:hover {
+  background-color: #f0d97e;
+  transform: translateY(-1px);
+}
+
+/* ---------- Hamburger ---------- */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 26px;
+  height: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.bar,
+.barOpen {
+  width: 100%;
+  height: 3px;
+  background-color: var(--offwhite);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.barOpen:nth-child(1) {
+  transform: translateY(7.5px) rotate(45deg);
+}
+.barOpen:nth-child(2) {
+  opacity: 0;
+}
+.barOpen:nth-child(3) {
+  transform: translateY(-7.5px) rotate(-45deg);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: var(--green);
+    padding: 1.5rem 0;
+    gap: 1.2rem;
+    border-top: 1px solid var(--gold);
+  }
+
+  .showMobile {
+    display: flex;
+  }
+
+  .quoteBtn {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  /* Centered mobile quote button */
+  .mobileQuoteWrapper {
+    margin-top: 1.5rem;
+    display: block;
+  }
+
+  .quoteBtnMobile {
+    background-color: var(--gold);
+    color: var(--charcoal);
+    border: none;
+    border-radius: 50px;
+    padding: 0.7rem 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .quoteBtnMobile:hover {
+    background-color: #f0d97e;
+    transform: translateY(-1px);
+  }
+}
