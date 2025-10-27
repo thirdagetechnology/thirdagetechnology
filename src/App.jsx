@@ -5,6 +5,9 @@ import Home from "./pages/Home";
 import ScamInfo from "./pages/ScamInfo";
 import Mission from "./pages/Mission";
 import Contact from "./pages/Contact";
+import ThirdAgeLogin from "./pages/ThirdAgeLogin";
+import Dashboard from "./pages/Dashboard";
+
 import ScrollToTop from "./components/ScrollToTop";
 export default function App() {
   return (
@@ -16,6 +19,8 @@ export default function App() {
         <Route path="/scam-awareness" element={<ScamInfo />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/third-age-login" element={<ThirdAgeLogin />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
     </>
