@@ -173,3 +173,43 @@
     width: 60%; /* looks nicer on smaller screens */
   }
 }
+.thankYouContainer {
+  position: relative;
+  background-color: #004b2b;
+  color: #f6c80f;
+  border-radius: 10px;
+  padding: 4rem 2rem;
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thankYouContainer h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.thankYouContainer p {
+  font-size: 1.1rem;
+  color: #fff6cc;
+}
+
+.errorMsg {
+  margin-top: 1rem;
+  color: #a00;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
