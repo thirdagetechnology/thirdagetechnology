@@ -7,6 +7,7 @@ import Mission from "./pages/Mission";
 import Contact from "./pages/Contact";
 import ThirdAgeLogin from "./pages/ThirdAgeLogin";
 import Dashboard from "./pages/Dashboard";
+import Services from "./pages/Services";
 
 import ScrollToTop from "./components/ScrollToTop";
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/third-age-login" element={<ThirdAgeLogin />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
       <Footer />
     </>

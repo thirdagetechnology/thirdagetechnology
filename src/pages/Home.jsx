@@ -26,6 +26,8 @@ import TextPhishingScam from "../assets/ScamIcons/TextPhishingScam.png";
 import investmentScams from "../assets/ScamIcons/investmentScams.png";
 import TechSupportFraud from "../assets/ScamIcons/TechSupportFraud.png";
 
+import ServiceCard from "../components/ServiceCard";
+
 const scamIcons = {
   investmentScams,
   TechSupportFraud,
@@ -38,6 +40,63 @@ const scamIcons = {
   TextPhishingScam,
   ObitScam,
 };
+
+const services = [
+  {
+    name: "Device Repair",
+    icon: PhoneTabletIcon,
+    description:
+      "Screen and battery replacement, charging port repair, and setup assistance for phones, tablets, and computers.",
+  },
+  {
+    name: "Device Cleaning",
+    icon: CleanIcon,
+    description:
+      "Gentle cleaning for screens, ports, and keyboards to improve performance and hygiene.",
+  },
+  {
+    name: "Software Setup",
+    icon: CheckDiscIcon,
+    description:
+      "App installation, updates, and personalized setup for devices of all kinds.",
+  },
+  {
+    name: "Hardware Installation",
+    icon: LaptopIcon,
+    description:
+      "Help connecting printers, smart devices, or Wi-Fi networks safely and securely.",
+  },
+  {
+    name: "Hardware Disposal",
+    icon: TrashIcon,
+    description:
+      "Secure device wiping, eco-friendly recycling, and donation preparation.",
+  },
+  {
+    name: "Technology Lessons",
+    icon: ProjectorIcon,
+    description:
+      "Friendly 1-on-1 lessons for phones, tablets, and computers — learn at your pace.",
+  },
+  {
+    name: "Scam Awareness",
+    icon: ShieldMonitorIcon,
+    description:
+      "Learn how to spot scams, protect passwords, and stay safe online.",
+  },
+  {
+    name: "Device Decluttering",
+    icon: SsdIcon,
+    description:
+      "Organize files, clear old data, and speed up your devices effortlessly.",
+  },
+  {
+    name: "Virus & Malware Removal",
+    icon: BugIcon,
+    description:
+      "Full system cleanup, protection setup, and safe browsing guidance.",
+  },
+];
 export default function Home() {
   const navigate = useNavigate();
   const handleQuoteClick = () => {
@@ -84,21 +143,8 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          {[
-            { name: "Device Repair", icon: PhoneTabletIcon },
-            { name: "Device Cleaning", icon: CleanIcon },
-            { name: "Software Setup", icon: CheckDiscIcon },
-            { name: "Hardware Installation", icon: LaptopIcon },
-            { name: "Hardware Disposal", icon: TrashIcon },
-            { name: "Technology Lessons", icon: ProjectorIcon },
-            { name: "Scam Awareness", icon: ShieldMonitorIcon },
-            { name: "Device Decluttering", icon: SsdIcon },
-            { name: "Virus & Malware Removal", icon: BugIcon },
-          ].map(({ name, icon }) => (
-            <div key={name} className={styles.card}>
-              <img src={icon} alt={`${name} icon`} className={styles.icon} />
-              <h3>{name}</h3>
-            </div>
+          {services.map((service) => (
+            <ServiceCard key={service.name} {...service} />
           ))}
         </div>
       </section>

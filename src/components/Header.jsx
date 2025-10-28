@@ -29,6 +29,9 @@ export default function Header() {
         <NavLink to="/" onClick={() => setMenuOpen(false)}>
           Home
         </NavLink>
+        <NavLink to="/services" onClick={() => setMenuOpen(false)}>
+          Our Services
+        </NavLink>
         <NavLink to="/scam-awareness" onClick={() => setMenuOpen(false)}>
           Scam Awareness
         </NavLink>

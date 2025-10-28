@@ -1,0 +1,59 @@
+.card {
+  perspective: 1000px;
+  width: 100%;
+  height: 220px;
+  cursor: pointer;
+}
+.title {
+  color: var(--green);
+}
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+.flipped .inner {
+  transform: rotateY(180deg);
+}
+
+/* ----- FRONT ----- */
+.front,
+.back {
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.front {
+  background-color: #fff1c7;
+  color: var(--charcoal);
+}
+
+.back {
+  background-color: var(--green);
+  color: var(--offwhite);
+  transform: rotateY(180deg);
+  text-align: center;
+}
+
+.back h4 {
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}

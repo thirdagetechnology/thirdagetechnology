@@ -25,6 +25,7 @@ export default function Footer() {
         <div className={styles.footerColumn}>
           <h3>Quick Links</h3>
           <NavLink to="/">Home</NavLink>
+          <NavLink to="/services">Our Services</NavLink>
           <NavLink to="/scam-awareness">Scam Awareness</NavLink>
           <NavLink to="/mission">Our Mission</NavLink>
           <NavLink to="/contact">Contact</NavLink>
