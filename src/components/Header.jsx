@@ -36,7 +36,7 @@ export default function Header() {
           Scam Awareness
         </NavLink>
         <NavLink to="/mission" onClick={() => setMenuOpen(false)}>
-          Our Mission
+          About Us
         </NavLink>
         <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
           Contact

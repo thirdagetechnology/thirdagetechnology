@@ -105,33 +105,38 @@ export default function Home() {
   return (
     <main className={styles.home}>
       {/* ---------- HERO ---------- */}
+      {/* ---------- HERO ---------- */}
       <section className={styles.hero}>
         <img
           src={heroImg}
           alt="Elderly couple using technology"
           className={styles.heroImg}
         />
-        <div className={styles.heroContent}>
-          <h1>Empowering Seniors Through Technology</h1>
-          <p>
-            Compassionate, patient, and personalized support for 55+
-            communities.
-          </p>
-          <button className={styles.heroBtn} onClick={handleQuoteClick}>
-            Get a Quote
-          </button>
-        </div>
-      </section>
 
-      {/* ---------- ABOUT PREVIEW ---------- */}
-      <section className={styles.about}>
-        <h2>Why Us?</h2>
-        <p>
-          At Third Age Technology, we specialize in providing compassionate,
-          senior-focused technology support to meet the unique challenges of
-          older adults. With patience, respect, and hands-on guidance, we make
-          technology simple, approachable, and empowering.
-        </p>
+        <div className={styles.heroOverlay}>
+          <div className={styles.heroLeft}>
+            <h1>Empowering Seniors Through Technology</h1>
+            <p>
+              Compassionate, patient, and personalized support for 55+
+              communities.
+            </p>
+            <button className={styles.heroBtn} onClick={handleQuoteClick}>
+              Get a Quote
+            </button>
+          </div>
+
+          <div className={styles.heroRight}>
+            <div className={styles.missionBubble}>
+              <h2>Our Mission</h2>
+              <p>
+                We believe everyone deserves access to friendly, patient, and
+                honest technology support — without confusion or hidden costs.
+                Our mission is simple: <strong>keep you connected</strong> to
+                the people and things that matter most.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* ---------- SERVICES PREVIEW ---------- */}
