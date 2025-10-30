@@ -70,14 +70,26 @@
   margin-bottom: 1rem;
 }
 
-/* ---------- MOBILE ---------- */
 @media (max-width: 900px) {
+  .hero {
+    position: relative;
+    min-height: auto; /* allow height to grow naturally */
+  }
+
+  .heroImg {
+    position: relative;
+    height: auto; /* remove fixed height restriction */
+    min-height: 500px; /* optional floor so it still looks tall */
+    filter: brightness(55%);
+  }
+
   .heroOverlay {
+    position: static; /* stop absolute positioning */
     flex-direction: column;
     justify-content: center;
     text-align: center;
     gap: 1.5rem;
-    padding: 0 1.5rem;
+    padding: 2rem 1.5rem 3rem; /* add vertical breathing room */
   }
 
   .heroLeft,
@@ -87,10 +99,7 @@
 
   .missionBubble {
     max-width: 90%;
-  }
-
-  .heroImg {
-    height: 600px; /* taller for mobile too */
+    margin: 0 auto;
   }
 }
 
