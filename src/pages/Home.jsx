@@ -129,10 +129,10 @@ export default function Home() {
             <div className={styles.missionBubble}>
               <h2>Our Mission</h2>
               <p>
-                We believe everyone deserves access to friendly, patient, and
-                honest technology support — without confusion or hidden costs.
-                Our mission is simple: <strong>keep you connected</strong> to
-                the people and things that matter most.
+                To empower residents of independent and assisted living
+                facilities through compassionate, patience-centered IT support
+                that enhances their connection, independence, and quality of
+                life.
               </p>
             </div>
           </div>

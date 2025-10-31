@@ -74,13 +74,12 @@ export default function Mission() {
               />
             </div>
           </div>
-          
         </div>
-         <img
-                src={AboutUsImg}
-                alt="Helping an elderly person with technology"
-                className={styles.aboutImageMobile}
-              />
+        <img
+          src={AboutUsImg}
+          alt="Helping an elderly person with technology"
+          className={styles.aboutImageMobile}
+        />
       </section>
 
       {/* ---------- MISSION ---------- */}
@@ -89,9 +88,9 @@ export default function Mission() {
           <div className={styles.text}>
             <h2>Our Mission</h2>
             <p>
-              To empower nursing home residents through compassionate,
-              patience-centered IT support that enhances their connection,
-              independence, and quality of life.
+              To empower residents of independent and assisted living facilities
+              through compassionate, patience-centered IT support that enhances
+              their connection, independence, and quality of life.
             </p>
 
             <p>
