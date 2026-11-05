@@ -15,8 +15,8 @@ export default function Footer() {
             <a href="tel:8049216853">(804) 921-6853</a>
           </p>
           <p>
-            <a href="mailto:jordan.dooms@thirdagetechnology.net">
-              jordan.dooms@thirdagetechnology.net
+            <a href="mailto:Jdooms@thirdage.tech">
+              Jdooms@thirdage.tech
             </a>
           </p>
         </div>

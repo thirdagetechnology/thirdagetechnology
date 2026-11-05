@@ -147,8 +147,8 @@ export default function Contact() {
             <div>
               <h3>Email Us</h3>
               <p>
-                <a href="mailto:jordan.dooms@thirdagetechnology.net">
-                  jordan.dooms@thirdagetechnology.net
+                <a href="mailto:Jdooms@thirdage.tech">
+                  Jdooms@thirdage.tech
                 </a>
               </p>
             </div>
